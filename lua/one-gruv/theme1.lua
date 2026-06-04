@@ -145,6 +145,13 @@ local config =
         TelescopePromptBorder       = { bg = color.window },
         TelescopePromptPrefix       = { fg = color.fg },
         TelescopeTitle              = { fg = color.fg },
+    },
+    dap =
+    {
+		DapBreakpoint = { fg = "#589DCA" },
+		DapBreakpointCondition = { fg = "#D19A66" },
+		DapLogPoint = { fg = "#BA5F5F" },
+		DapStopped = { fg = "#83B95D" },
     }
 }
 config.blink =

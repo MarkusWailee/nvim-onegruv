@@ -90,6 +90,12 @@ function M.Load(config)
     -- for k, v in pairs(config.blink or {}) do set(k, v) end
     -- for k, v in pairs(config.markup or {}) do set(k, v) end
 
+    local sign = vim.fn.sign_define
+    sign("DapBreakpoint", { text = "●", texthl = "DapBreakpoint", linehl = "", numhl = ""})
+    sign("DapBreakpointCondition", { text = "●", texthl = "DapBreakpointCondition", linehl = "", numhl = ""})
+    sign("DapLogPoint", { text = "◆", texthl = "DapLogPoint", linehl = "", numhl = ""})
+    sign("DapStopped", { text = "", texthl = "DapStopped", linehl = "", numhl = ""})
+
 end
 
 return M
