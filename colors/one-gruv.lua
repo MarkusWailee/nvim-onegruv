@@ -1,1 +1,1 @@
-require("one-gruv.setup").Load(require("one-gruv.theme1"))
+require("one-gruv.setup").Load(require("one-gruv.one-gruv"))
