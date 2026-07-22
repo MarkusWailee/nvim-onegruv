@@ -23,11 +23,11 @@ local syntax_translation =
     string_escape  = { "@string.escape" },
     string_special = { "@string.special" },
 
-    func       = { "@function", "@lsp.type.function" },
+    func       = { "@function", "@lsp.type.function", "Function" },
     method         = { "@method", "@lsp.type.method" },
     constructor    = { "@constructor" },
 
-    type           = { "@type", "@lsp.type.type" },
+    type           = { "@type", "@lsp.type.type", "Type"},
     type_builtin   = { "@type.builtin" },
 
     namespace      = { "@namespace", "@lsp.type.namespace" },
