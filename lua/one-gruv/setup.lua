@@ -21,9 +21,9 @@ local syntax_translation =
     character      = { "@character" },
 
     string_escape  = { "@string.escape" },
-    string_special = { "@string.special" },
+    string_special = { "@string.special"},
 
-    func       = { "@function", "@lsp.type.function", "Function" },
+    func       = { "@function", "@lsp.type.function", "Function", "Special" },
     method         = { "@method", "@lsp.type.method" },
     constructor    = { "@constructor" },
 
@@ -33,7 +33,7 @@ local syntax_translation =
     namespace      = { "@namespace", "@lsp.type.namespace" },
     module         = { "@module" },
 
-    keyword        = { "@keyword", "@lsp.type.keyword" },
+    keyword        = { "@keyword", "@lsp.type.keyword", "Statement"},
     keyword_import = { "@keyword.import" },
     keyword_mod    = { "@keyword.modifier" },
 

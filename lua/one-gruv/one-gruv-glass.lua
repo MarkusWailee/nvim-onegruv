@@ -135,7 +135,6 @@ local config =
 		["@markup.quote"]    = { fg = color.strings },
 		["@markup.link"]     = { fg = color.functions },
 		["@markup.link.url"] = { fg = color.functions },
-		["Special"]          = { fg = "#83B95D" },
 	},
 	telescope =
 	{
