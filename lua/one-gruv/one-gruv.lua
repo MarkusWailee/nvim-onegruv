@@ -72,6 +72,7 @@ local config =
 		NormalFloat      = { fg = color.fg, bg = color.window },
 		CursorLine       = { bg = color.cursor_line },
 		CursorColumn     = { bg = color.cursor_line },
+		ColorColumn      = { bg =  "none" },
 		CursorLineNr     = { fg = color.fg, bold = true },
 		LineNr           = { fg = color.faded_text },
 		SignColumn       = { bg = color.window },
